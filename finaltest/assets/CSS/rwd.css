@@ -370,6 +370,9 @@
     .price{
         padding-top: 20px;
     }
+    #fu{
+        display: block;
+    }
     /*member*/
     .membercontainer {
         display: block;
