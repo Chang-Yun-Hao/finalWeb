@@ -80,11 +80,40 @@
       .foottitle{
           padding-left: 0;
       }
-    
       .containerr{
           margin-top: 0;
       }
-      
+
+      .shopbox .in-left .leftbox{
+          display: none;
+      }
+
+      .in-left .kind{
+        margin-left: 25px;
+        text-align: unset;
+        font-size: 20px;
+      }
+
+      .shopbox{
+          display: block;
+      }
+      .rightbox, .pdline{
+          display: block;
+          margin:0;
+
+      }
+
+      .shopcontainer{
+        width: 100%;
+      }
+      .product{
+          margin:0;
+          margin-top:20px;
+      }
+
+      .drop_down{
+          display: none;
+      }
 
       
 }
