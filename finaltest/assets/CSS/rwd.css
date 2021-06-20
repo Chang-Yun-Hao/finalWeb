@@ -370,4 +370,122 @@
     .price{
         padding-top: 20px;
     }
+    /*member*/
+    .membercontainer {
+        display: block;
+        margin-top: 0;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .profilebox {
+        display: block;
+    }
+
+    .membertext {
+        padding: 0 0 0 50px;
+    }
+
+    .profileleft {
+        display: block;
+        margin-left: 45px;
+    }
+
+    .profileright {
+        width: 400px;
+        left: 0;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .profileleft img {
+        width: 100%;
+    }
+
+    .linner,
+    .pdline {
+        width: 300px;
+    }
+
+
+    .purchasebox {
+        width: 340px;
+
+        margin-left: 20px;
+        margin-top: 100px;
+        height: 900px;
+    }
+
+    .prtext {
+        padding-left: 20px;
+    }
+
+    .Chword {
+        display: block;
+    }
+
+    .profilebox {
+        height: 600px;
+    }
+
+    .onepdp {
+        display: block;
+        height: 100px;
+    }
+
+    .prpdname {
+        padding: 0;
+        margin-left: 20px;
+    }
+
+    .pddname {
+        width: 300px;
+    }
+
+    .comLinner {
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    .onepdp {
+        padding-left: 0;
+        display: flex;
+        margin-left: 20px;
+        padding: 20px;
+    }
+
+    .ppdcount {
+        margin-left: 20px;
+    }
+
+    .delivery {
+        margin-left: 20px;
+    }
+
+    .totalprice {
+        width: 100%;
+        margin-left: 20px;
+
+    }
+
+    .deltotal {
+        display: block;
+    }
+
+    .commentleft {
+        margin: 0;
+    }
+
+
+    .in-left,
+    .profilebox,
+
+    .delivery {
+        width: 300px;
+    }
+
+    .profileright{
+        width: 100%;
+    }
+    /*------*/
 }
