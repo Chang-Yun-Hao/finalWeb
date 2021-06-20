@@ -118,12 +118,13 @@
     .rightbox,.pdline {
         display: block;
         margin: 0;
+
     }
-    
-   .righttext{
+
+    .righttext{
         width: 400px;
     }
-    
+
     .shopcontainer {
         width: 100%;
     }
@@ -175,6 +176,7 @@
         padding:20px;
         height: 600px;
         margin-top: 0px;
+        width: 350px;
     }
     .cool {
         left: 200px;
@@ -263,9 +265,6 @@
         width: 330px;
         padding-top: 10px;
         padding-left:20px;
-    }
-    .proName{
-        width: 30px;
     }
 
     .proSinger{
@@ -373,10 +372,12 @@
     .price{
         padding-top: 20px;
     }
+
     #fu{
         display: block;
     }
-    /*member*/
+
+/*member*/
     .membercontainer {
         display: block;
         margin-top: 0;
@@ -494,4 +495,5 @@
         width: 100%;
     }
     /*------*/
+
 }
