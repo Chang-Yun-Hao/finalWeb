@@ -216,29 +216,35 @@
         height:2690px ;
     }
     .cmtbox{
-        width: 410px;
+        width: 350px;
         padding-left: 15px;
+        padding-right: 0;
     }
     textarea{
-        width: 280px;
+        width: 270px;
     }
     .onecomment{
         padding: 0 10px;
     }
     .sttar{
-        width: 0px;
+
         display: inline;
     }
     .commentleft{
         width: 0px;
     }
-
+    .fieldset{
+        width: 400px;
+        padding-right: 0;
+        margin: 0;
+    }
     .commentleft img{
         margin-top: 30px;
     }
     .name-date-star{
         display: block;
         left: 150px;
+        width: 170px;
     }
     .commentRight time{
         margin: 0;
@@ -255,5 +261,16 @@
         padding-top: 10px;
         padding-left:20px;
     }
+    .proName{
+        width: 30px;
+    }
 
+    .proSinger{
+        width: 30px;
+    }
+
+
+    .cart_quantity{
+        width: 300px;
+    }
 }
