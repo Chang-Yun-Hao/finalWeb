@@ -1,0 +1,85 @@
+@media (max-width: 414px){
+    .navbar {
+        padding: 0;
+        width:100%;  /*跟上面user有關*/
+      }
+      .navigation-wrap{
+          position: relative;
+          width: 100%;
+      }
+      .navigation-wrap img{
+          left: 0;
+      }
+      .navbar-light .navbar-toggler{
+        width: 100%;
+      }
+
+
+      .cd-cart-trigger{
+          display: none;
+      }
+
+      .cd-member-trigger,.cd-img-replace{
+          display: none;
+      }
+
+      .textpic_container{
+          display: block;
+          width: 100%;
+      }
+      .upDown{
+          position: unset;
+      }
+
+      .textbox{
+          width: 350px;
+          padding: 0;
+          margin: 20px;
+      }
+
+      .pikbox{
+          position: relative;
+          display: none;
+      }
+      .up{
+          top: 0;
+          left: 0;
+          display: block;
+      }
+      .hotItem{
+          display: none;
+      }
+      .hotcont,.hotItemOne{
+          display: block;
+          width: 100%;
+          margin-top: 50px;
+      }
+      .hotItemOne{
+          margin-top: 0px;
+          height: 500px;
+      }
+
+      .addcart1{
+        left: 0px;
+      }
+      .hotItemOne img {
+          width: 100%;
+          top:-610px;
+      }
+
+      .onepic{
+          padding:50px;
+      }
+      .footcon2{
+          display: block;
+      }
+
+      .footrow1,.footrow2{
+          width: 100%;
+      }
+      .foottitle{
+          padding-left: 0;
+      }
+
+      
+}
