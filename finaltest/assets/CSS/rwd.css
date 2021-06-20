@@ -115,13 +115,15 @@
         display: block;
     }
 
-    .rightbox,
-    .pdline {
+    .rightbox,.pdline {
         display: block;
         margin: 0;
-
     }
-
+    
+   .righttext{
+        width: 400px;
+    }
+    
     .shopcontainer {
         width: 100%;
     }
