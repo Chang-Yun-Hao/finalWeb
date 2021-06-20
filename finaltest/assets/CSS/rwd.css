@@ -4,7 +4,9 @@
         width: 100%;
         /*跟上面user有關*/
     }
-
+    .user{
+        width: 375PX;
+    }
     .navigation-wrap {
         position: relative;
         width: 100%;
@@ -100,7 +102,7 @@
         display: block;
         margin-top: 0;
     }
-
+/*
     .shopbox .in-left .leftbox {
         display: none;
     }
@@ -110,7 +112,7 @@
         text-align: unset;
         font-size: 20px;
     }
-
+*/
     .shopbox {
         display: block;
     }
@@ -387,10 +389,13 @@
 
     .profilebox {
         display: block;
+        width:400PX ;
     }
 
     .membertext {
         padding: 0 0 0 50px;
+        font-size: 30px;
+        width: 375px;
     }
 
     .profileleft {
@@ -399,7 +404,7 @@
     }
 
     .profileright {
-        width: 400px;
+        width: 370px;
         left: 0;
         padding: 20px;
         font-size: 20px;
@@ -416,19 +421,19 @@
 
 
     .purchasebox {
-        width: 340px;
-
+        width: 320px;
         margin-left: 20px;
-        margin-top: 100px;
-        height: 900px;
+        margin-top: 20px;
+        height: 1000px;
     }
 
     .prtext {
         padding-left: 20px;
+        margin-bottom: 0;
     }
 
     .Chword {
-        display: block;
+        width: 180px;
     }
 
     .profilebox {
@@ -457,12 +462,14 @@
     .onepdp {
         padding-left: 0;
         display: flex;
-        margin-left: 20px;
-        padding: 20px;
+        margin-left: 0px;
+        padding: 15px;
+        font-size: 25px;
     }
 
     .ppdcount {
-        margin-left: 20px;
+        margin-left: 10px;
+        width: 130px;
     }
 
     .delivery {
@@ -478,21 +485,43 @@
     .deltotal {
         display: block;
     }
-
+    .ppdprice{
+        width: 130px;
+        /*border: solid;*/
+    }
     .commentleft {
         margin: 0;
     }
 
+    .onepdp .ppdname{
+        width: 400px;
+        /*border: solid;*/
+        font-size: 20px;
+    }
 
-    .in-left,
-    .profilebox,
+    .onepdp .ppdprice{
+        /*border: solid;*/
+        margin-left: 30px;
+    }
+    .onepdp .ppdcount{
+        /*border: solid;*/
+        padding-top:7px;
+        margin-left: 40px;
+    }
+
+    .in-left,.profilebox,.delivery {
+       /* width: 300px;*/
+    }
 
     .delivery {
         width: 300px;
     }
+    .profilebox .in-left{
+        width: 400px;
+    }
 
     .profileright{
-        width: 100%;
+        width: 400px;
     }
     /*------*/
 
